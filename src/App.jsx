@@ -1,3 +1,6 @@
+import Home from "./components/Home/Home"
+import ListedBooks from "./components/ListedBooks/ListedBooks"
+import PagesRead from "./components/PagesRead/PagesRead"
 
 
 function App() {
@@ -6,8 +9,9 @@ function App() {
   return (
     <>
       
-      <h1>Book Vibe</h1>
-      
+     <Home></Home>
+     <ListedBooks></ListedBooks>
+      <PagesRead></PagesRead>
      
     </>
   )

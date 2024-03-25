@@ -1,0 +1,80 @@
+[
+    {
+        "bookId": 1,
+        "bookName": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "image": "great_gatsby.jpg",
+        "review": "The Great Gatsby is a magnificent portrayal of the Jazz Age. It captures the essence of excess and longing, weaving a tale of love, ambition, and tragedy.",
+        "totalPages": 218,
+        "rating": 4.5,
+        "category": "Classic Literature",
+        "tags": ["Romance", "Drama", "1920s"],
+        "publisher": "Scribner",
+        "yearOfPublishing": 1925
+    },
+    {
+        "bookId": 2,
+        "bookName": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "image": "to_kill_a_mockingbird.jpg",
+        "review": "To Kill a Mockingbird is a timeless masterpiece that addresses issues of racism, morality, and empathy through the eyes of a young girl in the American South.",
+        "totalPages": 281,
+        "rating": 4.8,
+        "category": "Fiction",
+        "tags": ["Coming-of-Age", "Social Issues", "Legal Drama"],
+        "publisher": "J. B. Lippincott & Co.",
+        "yearOfPublishing": 1960
+    },
+    {
+        "bookId": 3,
+        "bookName": "1984",
+        "author": "George Orwell",
+        "image": "1984.jpg",
+        "review": "1984 is a chilling dystopian novel that explores the dangers of totalitarianism and the erosion of truth and individual freedom. It remains as relevant today as when it was first published.",
+        "totalPages": 328,
+        "rating": 4.7,
+        "category": "Science Fiction",
+        "tags": ["Dystopian", "Political Satire", "Surveillance"],
+        "publisher": "Secker & Warburg",
+        "yearOfPublishing": 1949
+    },
+    {
+        "bookId": 4,
+        "bookName": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "image": "catcher_in_the_rye.jpg",
+        "review": "The Catcher in the Rye is a poignant exploration of teenage angst and alienation. Holden Caulfield's voice resonates with authenticity, making it a classic coming-of-age novel.",
+        "totalPages": 277,
+        "rating": 4.4,
+        "category": "Fiction",
+        "tags": ["Coming-of-Age", "American Literature", "Existentialism"],
+        "publisher": "Little, Brown and Company",
+        "yearOfPublishing": 1951
+    },
+    {
+        "bookId": 5,
+        "bookName": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "image": "pride_and_prejudice.jpg",
+        "review": "Pride and Prejudice is a timeless romance novel that beautifully captures the manners and mores of early 19th-century England. Austen's wit and keen observation make it a joy to read.",
+        "totalPages": 279,
+        "rating": 4.6,
+        "category": "Classic Literature",
+        "tags": ["Romance", "Satire", "Regency Era"],
+        "publisher": "T. Egerton, Whitehall",
+        "yearOfPublishing": 1813
+    },
+    {
+        "bookId": 6,
+        "bookName": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "image": "the_hobbit.jpg",
+        "review": "The Hobbit is a delightful adventure story set in Middle-earth. Tolkien's rich imagination and masterful storytelling create a captivating world filled with dwarves, elves, dragons, and hobbits.",
+        "totalPages": 310,
+        "rating": 4.9,
+        "category": "Fantasy",
+        "tags": ["Adventure", "High Fantasy", "Quest"],
+        "publisher": "Allen & Unwin",
+        "yearOfPublishing": 1937
+    }
+]
