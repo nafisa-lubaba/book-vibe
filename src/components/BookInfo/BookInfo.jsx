@@ -1,9 +1,13 @@
 import { useLoaderData, useParams } from 'react-router-dom'
   import 'react-toastify/dist/ReactToastify.css';
-import { saveBooks } from '../utils';
+import { saveBooks, saveWish } from '../utils';
   const handleRead = book=>{
     saveBooks(book)
     console.log('you have already read')
+  }
+  const handleWish = book =>{
+    saveWish(book)
+    console.log('you have already in wishlist')
   }
 
 const BookInfo = () => {
@@ -48,7 +52,7 @@ const BookInfo = () => {
 
                       <div className=''>
                       <button onClick={() =>handleRead(book)} className="btn bg-white border border-gray-500">Read</button>
-                        <button className="btn bg-[#50B1C9] ml-4">Wishlist</button>
+                        <button onClick={()=>handleWish(book)} className="btn bg-[#50B1C9] ml-4">Wishlist</button>
                         
                       </div>
                     </div>

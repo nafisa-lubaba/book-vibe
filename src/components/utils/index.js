@@ -8,6 +8,15 @@ export const getBooks = () => {
     }
     return books
 }
+export const getWish =() => {
+    let wish =[]
+    const storeWish = localStorage.getItem('wish')
+    if (storeWish){
+        wish = JSON.parse(storeWish)
+    }
+    return wish
+
+}
 
 export const saveBooks = book => {
     let books = getBooks()
@@ -18,5 +27,18 @@ export const saveBooks = book => {
     books.push(book)
     localStorage.setItem('books', JSON.stringify(books))
     toast.success('add in wishlist')
+
+}
+
+export const saveWish = wishs =>{
+    let wish = getWish()
+    const isExit = wish.find(w=> w.bookId === wishs.bookId)
+    if(isExit){
+        return toast.error('you have add in wishlist')
+    }
+    wish.push(wishs)
+    localStorage.setItem('wish', JSON.stringify(wish))
+    toast.success('add in wishlistss')
+
 
 }
