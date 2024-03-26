@@ -8,7 +8,7 @@
         "totalPages": 218,
         "rating": 4.5,
         "category": "Classic Literature",
-        "tags":"Romance",
+        "tags": ["Romance", "Drama"],
         "publisher": "Scribner",
         "yearOfPublishing": 1925
     },
@@ -21,7 +21,7 @@
         "totalPages": 281,
         "rating": 4.8,
         "category": "Fiction",
-        "tags": "Social Issues",
+        "tags": ["Coming-of-Age", "Social Issues"],
         "publisher": "J. B. Lippincott & Co.",
         "yearOfPublishing": 1960
     },
@@ -34,7 +34,7 @@
         "totalPages": 328,
         "rating": 4.7,
         "category": "Science Fiction",
-        "tags": "Dystopian",
+        "tags": ["Dystopian", "Political Satire"],
         "publisher": "Secker & Warburg",
         "yearOfPublishing": 1949
     },
@@ -47,7 +47,7 @@
         "totalPages": 277,
         "rating": 4.4,
         "category": "Fiction",
-        "tags": "American Literature",
+        "tags": ["Coming-of-Age","Existentialism"],
         "publisher": "Little, Brown and Company",
         "yearOfPublishing": 1951
     },
@@ -60,7 +60,7 @@
         "totalPages": 279,
         "rating": 4.6,
         "category": "Classic Literature",
-        "tags": "Romance",
+        "tags": ["Romance", "Satire"],
         "publisher": "T. Egerton, Whitehall",
         "yearOfPublishing": 1813
     },
@@ -73,7 +73,7 @@
         "totalPages": 310,
         "rating": 4.9,
         "category": "Fantasy",
-        "tags": "Adventure",
+        "tags": ["Adventure", "High Fantasy", "Quest"],
         "publisher": "Allen & Unwin",
         "yearOfPublishing": 1937
     }
