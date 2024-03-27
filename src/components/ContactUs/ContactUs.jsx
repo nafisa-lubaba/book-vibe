@@ -3,6 +3,7 @@
 const ContactUs = () => {
     return (
         <div>
+            <h1 className="flex items-center justify-center text-3xl py-4 rounded-2xl font-bold mt-5 bg-green-200">Feel Free to Contact</h1>
 
             <div>
                 <section className="py-6 bg-black text-white rounded-xl my-6 mt-6">
@@ -45,7 +46,7 @@ const ContactUs = () => {
                                 <span className="mb-1">Message</span>
                                 <textarea rows="3" className="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100"></textarea>
                             </label>
-                            <button type="button" className="self-center px-8 py-3 text-lg bg-green-400 text-white rounded-lg">Submit</button>
+                            <button type="button" className="self-center px-8 py-3 text-lg bg-green-200 text-black rounded-lg">Submit</button>
                         </form>
                     </div>
                 </section>
