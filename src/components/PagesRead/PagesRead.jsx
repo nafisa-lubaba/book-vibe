@@ -1,6 +1,6 @@
 
 import { useEffect, useState } from "react";
-import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
+import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { getBooks } from "../utils/index";
 
 const colors = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', 'red', 'pink'];
@@ -19,31 +19,34 @@ const TriangleBar = (props) => {
 };
 
 const PagesRead = () => {
-        const [books, setBooks] = useState([])
-        useEffect(() => {
-            const booked = getBooks()
-            setBooks(booked)
-        }
-            , [])
-        const chartData = books.map(book => ({
-            name:` ${ book.bookName }`,
-            pages: book.totalPages
-            }));
+    const [books, setBooks] = useState([])
+    useEffect(() => {
+        const booked = getBooks()
+        setBooks(booked)
+    }
+        , [])
+    const chartData = books.map(book => ({
+        name: ` ${book.bookName}`,
+        pages: book.totalPages
+    }));
     return (
+
         <div>
             <h2>Bar Chart of Book Ratings</h2>
-            <BarChart width={700} height={500} data={chartData} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="name" />
-                <YAxis />
-                <Tooltip />
-                <Legend />
-                <Bar dataKey="pages" fill="#8884d8" shape={<TriangleBar />} label={{ position: 'top' }}>
-                    {chartData.map((entry, index) => (
-                        <Cell key={`cell - ${index}`} fill={colors[index % colors.length]} />
-                    ))}
-                </Bar>
-            </BarChart>
+            <ResponsiveContainer width="100%" aspect={1.5}>
+                <BarChart data={chartData} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="name" />
+                    <YAxis />
+                    <Tooltip />
+                    <Legend />
+                    <Bar dataKey="pages" fill="#8884d8" shape={<TriangleBar />} label={{ position: 'top' }}>
+                        {chartData.map((entry, index) => (
+                            <Cell key={`cell - ${index}`} fill={colors[index % colors.length]} />
+                        ))}
+                    </Bar>
+                </BarChart>
+            </ResponsiveContainer>
         </div>
 
 

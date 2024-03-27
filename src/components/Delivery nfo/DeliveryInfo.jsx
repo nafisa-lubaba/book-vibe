@@ -4,7 +4,7 @@ const DeliveryInfo = () => {
   return (
     <div className="mx-auto w-[90%]">
       <div className="hero bg-pink-100 mt-5 rounded-lg">
-        <div className="hero-content flex-col lg:flex-row-reverse flex justify-center items-center">
+        <div className="hero-content flex-col lg:flex-row-reverse flex justify-center items-center gap-5">
           <img src="https://i.ibb.co/9pQXPYc/delivary.png" className="rounded-lg shadow-2xl w-[40%]" />
           <div className="">
             <h1 className="text-4xl font-bold text-green-600 pt-4">Delivery Information!</h1>
@@ -16,7 +16,7 @@ const DeliveryInfo = () => {
               <li className="text-xl text-gray-500"><span className="text-green-500 font-bold">International Shipping:</span> Delivery times may vary depending on the destination</li>
             </div>
 
-            <p className="text-xl">Please note that delivery times may be affected by factors such as weather conditions and holidays. For any inquiries regarding your order, feel free to <a href="contact.html">contact us</a>.</p>
+            <p className="text-xl">Please note that delivery times may be affected by factors such as weather conditions and holidays. For any inquiries regarding your order.</p>
             <button className="btn bg-green-400 text-white text-xl mt-4 ">Contact Now</button>
           </div>
         </div>
