@@ -20,21 +20,21 @@ const Navbar = () => {
                             <NavLink to='/contactus' className={({ isActive }) => isActive ? 'border border-green-500 text-green-400 px-3' : 'font-extrabold'}>Contact Us</NavLink>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">BookishBliss</a>
+                    <a className="btn btn-ghost text-lg lg:text-xl">BookishBliss</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 gap-5">
-                        <NavLink to='/' className={({ isActive }) => isActive ? 'border border-green-500 text-green-400 px-3' : 'font-extrabold'}>Home</NavLink>
+                        <NavLink to='/' className={({ isActive }) => isActive ? 'border border-green-500 text-green-400 px-3 text-xl font-bold' : 'font-bold text-xl'}>Home</NavLink>
 
-                        <NavLink to='/listedbooks' className={({ isActive }) => isActive ? 'border border-green-500 text-green-400 px-3' : 'font-extrabold'}>Listed Books</NavLink>
-                        <NavLink to='/pagesread' className={({ isActive }) => isActive ? 'border border-green-500 text-green-400 px-3' : 'font-extrabold'}>Pages to Read</NavLink>
-                        <NavLink to='/deliveryinfo' className={({ isActive }) => isActive ? 'border border-green-500 text-green-400 px-3' : 'font-extrabold'}>Delivery Info</NavLink>
-                        <NavLink to='/contactus' className={({ isActive }) => isActive ? 'border border-green-500 text-green-400 px-3' : 'font-extrabold'}>Contact Us</NavLink>
+                        <NavLink to='/listedbooks' className={({ isActive }) => isActive ? 'border border-green-500 text-green-400 px-3 text-xl font-bold' : 'font-bold text-xl'}>Listed Books</NavLink>
+                        <NavLink to='/pagesread' className={({ isActive }) => isActive ? 'border border-green-500 text-green-400 px-3 text-xl font-bold' : 'font-bold text-xl'}>Pages to Read</NavLink>
+                        <NavLink to='/deliveryinfo' className={({ isActive }) => isActive ? 'border border-green-500 text-green-400 px-3 text-xl font-bold' : 'font-bold text-xl'}>Delivery Info</NavLink>
+                        <NavLink to='/contactus' className={({ isActive }) => isActive ? 'border border-green-500 text-green-400 px-3 text-xl font-bold' : 'font-bold text-xl'}>Contact Us</NavLink>
                     </ul>
                 </div>
                 <div className="navbar-end gap-3">
-                    <a className="btn bg-green-400 text-white">Sign In</a>
-                    <a className="btn">Sign Up</a>
+                    <a className="btn bg-green-400 text-white lg:text-xl">Sign In</a>
+                    <a className=" btn lg:text-xl">Sign Up</a>
                 </div>
                 
             </div>

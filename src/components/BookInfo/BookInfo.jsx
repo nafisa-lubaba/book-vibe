@@ -44,10 +44,10 @@ const BookInfo = () => {
 
             <hr className='border-dotted my-2' />
             <div className='mb-3'>
-              <p className=''>name of pages:  <span className='font-semibold ml-3'>  {book.totalPages}</span></p>
-              <p className=''>name of pages:  <span className='font-semibold ml-3'> {book.publisher}</span></p>
-              <p className=''>name of pages:    <span className='font-semibold ml-3'>{book.yearOfPublishing}</span></p>
-              <p className=''>name of pages:  <span className='font-semibold ml-3'> {book.rating}</span></p>
+              <p className=''>Number of Pages:  <span className='font-semibold ml-3'>  {book.totalPages}</span></p>
+              <p className=''>Publisher:  <span className='font-semibold ml-3'> {book.publisher}</span></p>
+              <p className=''>Year of Publishing:   <span className='font-semibold ml-3'>{book.yearOfPublishing}</span></p>
+              <p className=''>Rating:  <span className='font-semibold ml-3'> {book.rating}</span></p>
             </div>
 
             <div className=''>
