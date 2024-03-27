@@ -16,6 +16,7 @@ import ReadBlogs from './components/ReadBlogs/ReadBlogs.jsx';
 import WhisList from './components/WhisList/WhisList.jsx';
 import DeliveryInfo from './components/Delivery nfo/DeliveryInfo.jsx';
 import ErrorPage from './components/ErrorPage/ErrorPage.jsx';
+import ContactUs from './components/ContactUs/ContactUs.jsx';
 
 const router = createBrowserRouter([
 
@@ -56,6 +57,11 @@ const router = createBrowserRouter([
       {
         path:'/deliveryinfo',
         element: <DeliveryInfo></DeliveryInfo>
+      },
+      {
+        path:'/contactus',
+        element:<ContactUs></ContactUs>
+
       }
      ]
     },
