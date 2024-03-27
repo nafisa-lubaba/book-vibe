@@ -16,10 +16,10 @@ const Books = () => {
     return (
         <div>
             <div>
-                <h2 className="font-bold  text-5xl text-center mt-10">Books:{books.length}</h2>
+                <h2 className="font-bold  text-5xl text-center mt-10">Books</h2>
 
             </div>
-            <div className="grid grid-cols-3 gap-8">
+            <div className="grid grid-rows-1 lg:grid-cols-3 gap-8">
                 {
                     books.map(book => <BookDetails key={book.bookId} book={book}></BookDetails>)
 

@@ -13,8 +13,8 @@ const ReadBlogs = () => {
      
 
     return (
-        <div>
-            <h1>Read Books:{books.length}</h1>
+        <div className=''>
+          
             {
                 books.map(book => <Read
                     key={book.bookId}

@@ -13,7 +13,7 @@ const WhisList = () => {
      
     return (
         <div>
-            <h1>wisshlist:{wishs.length}</h1>
+            
             {
                 wishs.map(books => <Wish
                     key={books.bookId}
