@@ -14,12 +14,15 @@ import Root from './components/Root/Root.jsx';
 import BookInfo from './components/BookInfo/BookInfo.jsx';
 import ReadBlogs from './components/ReadBlogs/ReadBlogs.jsx';
 import WhisList from './components/WhisList/WhisList.jsx';
+import DeliveryInfo from './components/Delivery nfo/DeliveryInfo.jsx';
+import ErrorPage from './components/ErrorPage/ErrorPage.jsx';
 
 const router = createBrowserRouter([
 
     {
       path: "/",
      element: <Root></Root>,
+     errorElement:<ErrorPage></ErrorPage>,
      children: [
       {
         path: '/',
@@ -49,6 +52,10 @@ const router = createBrowserRouter([
         path:'/book/:bookId',
         element:<BookInfo></BookInfo>,
         loader: () => fetch('/data.json')
+      },
+      {
+        path:'/deliveryinfo',
+        element: <DeliveryInfo></DeliveryInfo>
       }
      ]
     },
