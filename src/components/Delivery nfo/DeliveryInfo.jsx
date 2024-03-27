@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const DeliveryInfo = () => {
@@ -17,7 +18,7 @@ const DeliveryInfo = () => {
             </div>
 
             <p className="text-xl">Please note that delivery times may be affected by factors such as weather conditions and holidays. For any inquiries regarding your order.</p>
-            <button className="btn bg-green-400 text-white text-xl mt-4 ">Contact Now</button>
+            <Link to='/contactus' className="btn bg-green-400 text-white text-xl mt-4 ">Contact Now</Link>
           </div>
         </div>
       </div>
