@@ -26,7 +26,7 @@ export const saveBooks = book => {
     }
     books.push(book)
     localStorage.setItem('books', JSON.stringify(books))
-    toast.success('Add in Readlist')
+    toast.success('Added in Readlist')
 
 }
 
@@ -42,11 +42,11 @@ export const saveWish = book =>{
 
     const isExit = wish.find(w=> w.bookId === book.bookId)
     if(isExit){
-        return toast.error('you have add in Wishlist')
+        return toast.error('you have already added in Wishlist')
     }
     wish.push(book)
     localStorage.setItem('wish', JSON.stringify(wish))
-    toast.success('Add in Wishlists')
+    toast.success('Added in Wishlist')
 
 
 }
