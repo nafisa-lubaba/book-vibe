@@ -62,7 +62,7 @@
         "category": "Classic Literature",
         "tags": ["Romance", "Satire"],
         "publisher": "T. Egerton, Whitehall",
-        "yearOfPublishing": 1813
+        "yearOfPublishing": 1913
     },
     {
         "bookId": 6,
@@ -73,7 +73,7 @@
         "totalPages": 310,
         "rating": 4.9,
         "category": "Fantasy",
-        "tags": ["Adventure", "High Fantasy", "Quest"],
+        "tags": ["Adventure", "High Fantasy"],
         "publisher": "Allen & Unwin",
         "yearOfPublishing": 1937
     }
