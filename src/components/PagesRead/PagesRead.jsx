@@ -32,7 +32,7 @@ const PagesRead = () => {
     return (
 
         <div>
-            <h2>Bar Chart of Book Ratings</h2>
+            <h2 className="flex justify-center items-center bg-green-200 py-4 text-2xl font-bold mt-4 rounded-lg mb-4">Bar Chart of Reading Books</h2>
             <ResponsiveContainer width="100%" aspect={1.5}>
                 <BarChart data={chartData} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
                     <CartesianGrid strokeDasharray="3 3" />
