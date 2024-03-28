@@ -18,8 +18,13 @@ const Navbar = () => {
                             <NavLink to='/pagesread' className={({ isActive }) => isActive ? 'border border-green-500 text-green-400 px-3' : 'font-extrabold'}>Pages to Read</NavLink>
                             <NavLink to='/deliveryinfo' className={({ isActive }) => isActive ? 'border border-green-500 text-green-400 px-3' : 'font-extrabold'}>Delivery Info</NavLink>
                             <NavLink to='/contactus' className={({ isActive }) => isActive ? 'border border-green-500 text-green-400 px-3' : 'font-extrabold'}>Contact Us</NavLink>
+                            <div className="navbar-end gap-3 lg:hidden">
+                                <a className="btn bg-green-400 text-white lg:text-xl">Sign In</a>
+                                <a className=" btn lg:text-xl">Sign Up</a>
+                            </div>
                         </ul>
                     </div>
+
                     <a className="btn btn-ghost text-lg lg:text-xl">BookishBliss</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
@@ -30,35 +35,23 @@ const Navbar = () => {
                         <NavLink to='/pagesread' className={({ isActive }) => isActive ? 'border border-green-500 text-green-400 px-3 text-xl font-bold' : 'font-bold text-xl'}>Pages to Read</NavLink>
                         <NavLink to='/deliveryinfo' className={({ isActive }) => isActive ? 'border border-green-500 text-green-400 px-3 text-xl font-bold' : 'font-bold text-xl'}>Delivery Info</NavLink>
                         <NavLink to='/contactus' className={({ isActive }) => isActive ? 'border border-green-500 text-green-400 px-3 text-xl font-bold' : 'font-bold text-xl'}>Contact Us</NavLink>
+
                     </ul>
                 </div>
-                <div className="navbar-end gap-3">
-                    <a className="btn bg-green-400 text-white lg:text-xl">Sign In</a>
+                {/* <div className="navbar-end hidden sm:block lg:gap-5">
+                    <a className="btn bg-green-400  text-white lg:text-xl ">Sign In</a>
                     <a className=" btn lg:text-xl">Sign Up</a>
+                </div> */}
+                <div className="navbar-end hidden sm:block lg:flex lg:gap-2">
+                    <a className="btn bg-green-400 text-white lg:text-xl mr-5">Sign In</a>
+                    <a className="btn lg:text-xl">Sign Up</a>
                 </div>
-                
+
+
             </div>
 
 
-            {/* <div className="navbar bg-base-100">
-                <div className="navbar-start">
-                    <a className="btn btn-ghost text-xl">BookishBliss</a>
-                </div>
-                <div className="navbar-center hidden lg:flex gap-5">
 
-                    <NavLink to='/' className={({ isActive }) => isActive ? 'border border-green-500 text-green-400 px-3' : 'font-extrabold'}>Home</NavLink>
-
-                    <NavLink to='/listedbooks' className={({ isActive }) => isActive ? 'border border-green-500 text-green-400 px-3' : 'font-extrabold'}>Listed Books</NavLink>
-                    <NavLink to='/pagesread' className={({ isActive }) => isActive ? 'border border-green-500 text-green-400 px-3' : 'font-extrabold'}>Pages to Read</NavLink>
-                    <NavLink to='/deliveryinfo' className={({ isActive }) => isActive ? 'border border-green-500 text-green-400 px-3' : 'font-extrabold'}>Delivery Info</NavLink>
-
-
-                </div>
-                <div className="navbar-end gap-3">
-                    <a className="btn bg-green-400 text-white">Sign In</a>
-                    <a className="btn">Sign Up</a>
-                </div>
-            </div> */}
         </>
     );
 };

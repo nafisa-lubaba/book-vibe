@@ -33,11 +33,11 @@ const ReadBlogs = () => {
         <div className=''>
             <div className='text-center'>
                 <div className="dropdown dropdown-end">
-                    <div tabIndex={0} role="button" className="btn m-1">Sort</div>
+                    <div tabIndex={0} role="button" className="btn m-1  bg-green-400 text-white font-bold">Sort By</div>
                     <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
                         <li onClick={() =>handleBookFilter('rating')}><a>Rating</a></li>
-                        <li  onClick={() =>handleBookFilter('totalPages')}><a>Total number of pages</a></li>
-                        <li  onClick={() =>handleBookFilter('yearOfPublishing')}><a>Year Of PubLISH</a></li>
+                        <li  onClick={() =>handleBookFilter('totalPages')}><a>Number of pages</a></li>
+                        <li  onClick={() =>handleBookFilter('yearOfPublishing')}><a>Publisher year</a></li>
                     </ul>
                 </div>
             </div>

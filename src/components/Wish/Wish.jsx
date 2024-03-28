@@ -38,7 +38,7 @@ const Wish = ({ books }) => {
         <div className="border border-dashed my-3"></div>
         <div className="flex flex-wrap gap-5">
             <div className="bg-blue-300 p-3 rounded-full">
-                <h6 className="text-blue-500">Category: {category}</h6>
+                <h6 className="text-black">Category: {category}</h6>
             </div>
             <div className="bg-orange-200 p-3 rounded-full">
                 <h6 className="text-orange-500">Rating: {rating}</h6>
