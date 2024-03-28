@@ -25,7 +25,7 @@ const Navbar = () => {
                         </ul>
                     </div>
 
-                    <a className="btn btn-ghost text-lg lg:text-xl">BookishBliss</a>
+                    <a className="btn btn-ghost text-xl">BookishBliss</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 gap-5">
@@ -38,10 +38,7 @@ const Navbar = () => {
 
                     </ul>
                 </div>
-                {/* <div className="navbar-end hidden sm:block lg:gap-5">
-                    <a className="btn bg-green-400  text-white lg:text-xl ">Sign In</a>
-                    <a className=" btn lg:text-xl">Sign Up</a>
-                </div> */}
+                
                 <div className="navbar-end hidden sm:block lg:flex lg:gap-2">
                     <a className="btn bg-green-400 text-white lg:text-xl mr-5">Sign In</a>
                     <a className="btn lg:text-xl">Sign Up</a>
